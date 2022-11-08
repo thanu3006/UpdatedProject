@@ -1,0 +1,29 @@
+.search-field
+{
+    border: 1px solid #c4c4c4;
+        width: 500px;
+        overflow-x: hidden;
+        
+        border-radius: 50px;
+        font-size: 18px;
+        position: relative;
+        left: 30%;
+        
+}
+i{
+    padding-left: 10px;
+}
+
+body {
+    background: #05a2b3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.flex-container{
+    padding-top: 15px;
+  
+
+}
+

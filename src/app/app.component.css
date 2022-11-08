@@ -1,0 +1,33 @@
+.menu-spacer{
+    flex: 1 1 auto;
+}
+
+
+.config {
+    align-self: center;
+}
+
+button{
+    background-color: aliceblue;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn1 {
+
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+
+}
+a{
+    color: aliceblue;
+}
+
+mat-toolbar{
+    padding: 20px;
+    
+}

@@ -1,0 +1,126 @@
+.music-thumbnail{
+    width : 300px;
+    margin : 20px;
+}
+
+.music-image{
+    height: 450px;
+
+}
+
+.music-card{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 60px;
+    width : 350px;
+    height : 40vh
+}
+.music-overview{
+    height:80px;
+    overflow-x:hidden;
+    overflow-y: auto;
+    justify-content: musicpaper;
+}
+
+.music-title{
+    width : 300px; 
+    height : 90px;
+    overflow-x: hidden;
+    font-size:50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.music-overview::-webkit-scrollbar{
+    width:2px;
+    background: gray;
+}
+
+#add-button, #delete-button
+{
+    float : right;
+}
+
+mat-card{
+    font-family: "PT Serif", serif;
+        min-width: 300px;
+        width: 300px;
+        height: 350px;
+        background: #17141d;
+        border-radius: 16px;
+        padding: 1rem 1.5rem;
+        box-shadow: -1rem 0 3rem #000;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: 0.2s;
+        margin: 30px;
+        padding: 20px;
+}
+
+
+.add-button{
+    
+            cursor: pointer;
+            padding: 10px 12px 8px;
+            background: #fff;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 0 0 15px;
+            color: #aaa;
+            transition: .2s;
+  
+}
+
+.add-button :hover {
+    color: rgb(215, 99, 99);
+}
+.add-button:before {
+            font-family: fontawesome;
+            content: '\f004';
+            font-style: normal;
+        }
+
+
+span {
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    transition: .6s;
+    z-index: -2;
+    font-size: 2px;
+    color: transparent;
+    font-weight: 400;
+}
+
+.add-button.press {
+    animation: size .4s;
+    color: #e23b3b;
+}
+
+
+
+@keyframes size {
+    0% {
+        padding: 10px 12px 8px;
+    }
+
+    50% {
+        padding: 14px 16px 12px;
+        margin-top: -4px;
+    }
+
+    100% {
+        padding: 10px 12px 8px;
+    }
+}
+
+span.press {
+    bottom: 120px;
+    font-size: 14px;
+    visibility: visible;
+    animation: fade 1s;
+}
